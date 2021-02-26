@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./scipt.js" defer></script>
+    <title>Joke</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>The moment jokes about Chuck Norris.</h1>
+        </header>
+        <div id="chooseCategory">
+            <p>Please select a category :</p>
+            <div>
+                <button id="number1" onclick="displayNerdy()"></button>
+                <button id="number2" onclick="displayExplicit()"></button>
+                <button onclick="displayNoCat()">Without categories</button>
+            </div>
+            <h5>Press repeatedly to bring up one or more new jokes. 😄 </h5>
+        </div>
+        <table>
+            <thead>
+                <td>Joke number</td>
+                <td>The joke</td>
+            </thead>
+            <tbody class="dispJoke"></tbody>
+        </table>
+    </main>
+</body>
+</html>
+

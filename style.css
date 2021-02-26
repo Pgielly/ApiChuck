@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Rye&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.none {
+    display: none;
+}
+
+header{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.3)), url(./img/unnamed.jpg);
+    padding:60px 0 100px 0;
+    background-repeat-y: no-repeat;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-family: 'Rye', sans-serif;
+    letter-spacing: 3px;
+}
+
+#chooseCategory{
+    padding: 30px;
+    box-shadow: 1px 2px 5px rgb(163, 163, 163);
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 50px;
+}
+#chooseCategory p {
+    font-size: large;
+    margin-bottom: 20px;
+}
+#chooseCategory h5 {
+    margin-top: 10px;
+}
+#chooseCategory div button {
+    padding: 7px 10px;
+    border: none;
+    background-color: rgb(144, 16, 16);
+    color: white;
+    text-align: center;
+    margin-right: 10px;
+    text-transform: capitalize;
+}
+#chooseCategory div button:hover{
+    background-color: rgb(92, 10, 10);
+
+}
+table{
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+}
+table thead{
+    background-color: rgb(144, 16, 16);
+    color: white;
+}
+table thead, tbody, tr, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid rgb(212, 212, 212);
+}
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+    color: rgb(151, 60, 0);
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
